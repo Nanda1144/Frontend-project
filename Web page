@@ -1,0 +1,311 @@
+<meta name='viewport' content='width=device-width, initial-scale=1'/><!DOCTYPEhtml>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width initial-scale=1.0">
+<link href="style.css" rel="stylesheet">
+ <link rel="javascript" href="script.js">
+</head>
+<title>Internship website</title>
+<body>
+<marquee behavior="scroll" direction="left">Future Ensure at Cognifyz Technologies</marquee>
+<nav>
+    <div class="logo">Web developer Opportunity at       <br>Cognifyz technologies</div>
+        <ul class="nav-links">
+          <span>  <a href="#home">Home</a></span><br>
+          <span>  <a href="#courses">courses</a></span><br>
+          <span>  <a href="#qualification">Qualification</a></span><br>
+        <span>    <a href="#benifits">Benefits</a></span><br>
+           <span> <a href="#form">Application</a></span><br>
+            <span><a href="#ContactUs">Contact</a></span><br>
+        </ul>
+        <div class="hamburger">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        </nav>
+<a name="home">
+<div class="intoductions">
+<div class="introduction1">
+<p>          Elevate your web development skills with our Web Developer internship program. 
+This course is ideal for beginners and covers everything from the basics of 
+web design to advanced front-end technologies, along with your can develop your 
+skills and way of thinking in problem solving statements.</p>
+<p>
+In this internship program they are going to give some tasks based on your skills
+solve the problem and writting of code for that we can submit the task to create a zip files 
+along with a small professional video overview of internship 
+with your code, output all those things.
+</p></div>
+</a>
+<a name="courses">
+<div class="courses">
+<h4> Courses</h4>
+<ol>
+<li>Software Development</li>
+  <ul>
+<li>Python</li>
+<li>Java</li>
+<li> Full stack development</li>
+<li>java and python courses with certifications</li>
+<li> Fornt-end & Back-end development</li>
+</ul>
+<li>Designing Courses Mobile</li>
+<ul>
+<li>Wed design</li>
+<li>UI/UX design</li>
+<li>HTML training</li>
+<li>Game desiging</li>
+</ul>
+<li>Development</li>
+<ul>
+<li> Android development</li>
+<li>Moblie appliactions</li>
+<li> system software</li>
+</ul>
+<li>Data Science AI/Ml</li>
+<ul>
+<li>Ai & ML training</li>
+<li>Data Science</li>
+<li> Data anatics and analysis</li>
+</ul>
+</ol>
+</div>
+</a>
+<a name="benifits">
+<div class="introduction2">
+<p><b>Key Features:</b><br></br>
+
+<b>• Duration: </b>30 days of intensive internship timings.<br>
+
+<b>• Format: </b> Work from home with flexible timings.<br>
+
+<b>• Certification: </b>Completion certificate awarded to all the interns to pay fee for the certificate.<br>
+
+<b>• Content:</b> In-depth  and relavent coverage of HTML, CSS, JavaScript, responsive design, frameworks  and to create 
+your own projects also.<br></p>
+</div>
+
+<div class="introduction3">
+<p><b>Why internship do in Cognifyz Technologies and benefites :</b><br></br>
+
+• Cognifyz Technologies trust on you to give chance to you.<br>
+• They provide AICTE and MSME approval certificate to you .<br>
+• Boost your resume with a recognized certificate<br>
+• Gain practical experience through real-world.<br>
+</div>
+</a>
+<a name="qualification">
+<div class="qualifications"><br></br>
+<h2>Qualification</h2>
+<div class="requriedskills">
+<h4>Desired skills</h4>
+ <p>This basic skills essential for web  developer<br>
+ <ul>
+         <li> HTML</li>
+         <li>CSS</li>
+         <li>JavaScript</li>
+          <li>Familiarity with version control (Git)</li>
+          <li>Strong problem-solving skills</li>
+</ul>
+<span>
+<div class="technologies">
+<h3 text-align="center">Technologies use:</h3>
+     <ul><li> For Fornt-end we use<big> HTML,CSS,JAVASCRIPT</big></li>
+    <li>For Back-end we use <big> PYTHON,JAVA,PHP,RUBY</big></li>
+      <li> For Database point of view we use<big> MangoDB,MySQL,Oracle<big></li>
+  </ul>
+</div>         
+</span>
+</div>
+</div>
+</a>
+<a name="form">
+    <div class="cta">
+        <button class="button" onclick="applicationForm()">Apply Now</button>
+    </div>
+</a>    
+    <a name="ContactUs">
+    <div class="ContactUs">
+    <h3>Contact Us:</h3>
+    <p></p>
+    <p><small><b>Location: </b>  Nagpur, Maharashtra<br>
+<b>Email :    </b>   cognifyztechnologies@gmail.com</small>
+<small><b>Linkdin:    </b>    @cognifyz-Technologies
+<br>
+<b>Official website:   </b>www.cognifyz.com
+<br>
+<b>Instagram:   </b>@cognifyz_tech<br></small></p>
+    </div>
+    </a>
+    <footer>
+    <p>&copy; All rights reseved</p>
+    </footer>
+</body>
+</html>
+
+
+<style>body{
+  background-color: #f4f4f4;
+  color: black;
+}
+marquee
+{
+  background-color: rgb(255,99,71);
+  color:blue;
+  width:100%;
+}
+nav{
+  background-color:#333;
+  color:white;
+  font-size:25;
+  padding:20px;
+   display: flex;
+   
+   align-items: center;
+   text-align:center;
+   width:100%;
+}
+.nav-links{
+  link-style:none;
+  display:flex;
+}
+.nav-links li {
+            margin-left: 20px;
+           
+        }
+ .nav-links a {
+            color: white;
+            text-decoration: none;
+            padding: 5px 10px;
+            transition: background-color 0.3s ease;
+        }
+  
+.nav-links a:hover {
+            background-color: #555;
+        }
+
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            cursor: pointer;
+        }
+
+        .bar {
+            width: 25px;
+            height: 3px;
+            background-color: white;
+            margin: 3px 0;
+            transition: 0.5s;
+          
+        }
+     @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+                flex-direction: column;
+                font-size:18;
+                width: 150px;          
+                background-color: #333;
+                position: absolute;
+                top: 50px;
+                right:30px;
+                left:150px;
+                text-align: center;
+                margin-top:5px;
+            }
+
+            .nav-links.active {
+                display: flex;
+            }
+
+            .nav-links li {
+                margin: 0;
+                padding: 10px 0;
+                width:100%;
+            }
+
+            .hamburger {
+                display: flex;
+            }
+        }
+.introduction1
+{
+  background-color: white;
+  text-align:center;
+  padding: 50px 20px;
+  justify-content:center;
+  width:100%;
+}
+.qualifications
+   {
+     margin-top:20px;
+     background-color:white;
+     width:100%
+ }
+ .courses,
+.introduction2,.introduction3{
+  background-color: #f4f4f4;
+      padding: 15px 30px;
+      margin: 20px;
+      font-size:normal;
+      border-radius:10px;
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 1);
+      width:90%;
+      text-align: left;
+    }
+.requriedskills {
+      background-color: #f4f4f4;
+      padding: 15px 15px;
+      margin: 20px;
+      
+      border-radius:10px;
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 1);
+      width:100%;
+      text-align: left;
+    }
+    
+   .requriedskills h4,.technologies h3{
+      background-color:#fff;
+      color: #333;
+    }
+    
+    .cta {
+      text-align: center;
+      margin-top: 50px;
+    }
+    .cta button {
+      padding: 15px 30px;
+      background-color: green;
+      color: white;
+      font-size: 1.2em;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .cta button:hover {
+      background-color: green;
+    }
+    
+    .ContactUs{
+      background-color:Darkblue;
+      color:white;
+      padding-left:10px;
+      width:100%;
+      
+    }
+    footer {
+      background-color: #333;
+      color: white;
+      padding: 5px 0;
+      text-align: center;
+      height:40px;
+      padding-bottom:10px;
+     
+    }</style><script>
+const hamburger = document.querySelector(".hamburger");
+        const navLinks = document.querySelector(".nav-links");
+
+        hamburger.addEventListener("click", () => {
+            navLinks.classList.toggle("active");
+        });</script>
